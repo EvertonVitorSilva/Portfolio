@@ -1,0 +1,30 @@
+body{
+    background: url("./img/background.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.cabecalho__logo{
+    height: 100px;
+    width: 100px;
+}
+
+.cabecalho__navegacao___link{
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #00ff00;
+    font-size: 1.75rem;
+}
+
+

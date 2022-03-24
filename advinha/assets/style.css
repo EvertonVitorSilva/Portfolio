@@ -1,0 +1,72 @@
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 350px;
+    }
+
+    .container__game{
+        border: 3px solid #f13971;
+        border-radius: 20px;
+        text-align: center;
+        padding: 60px;
+        background-color: #f13971;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container__game___titulo{
+        border-bottom: solid 2px #eaee07;
+        margin-bottom: 50px;
+        font-size: 2rem;
+        color: #eaee07;
+    }
+
+    .container__game___input{
+        border: 1px solid #000;
+        border-radius: 60px;
+        background-color: #eaee07;
+        color: #f13971;
+        width: 80px;
+        height: 80px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .container__game___botao{
+        border-radius: 20px;
+        background-color: #eaee07;
+        color: #f13971;
+        height: 80px;
+        width: auto;
+        font-size: 1.75rem;
+        font-weight: bold;
+
+    }
+
+    .container__game___botao:active{
+        background-color: #fff;
+    }
+
+    .container__game___paragrafo{
+        margin-bottom: 50px;
+        font-size: 2rem;
+        color: #eaee07;
+    }
+
+    .containe__game___load{
+        border-radius: 20px;
+        background-color: #eaee07;
+        color: #f13971;
+        height: 80px;
+        width: auto;
+        font-size: 1.75rem;
+        font-weight: bold;
+    }
+
+    .containe__game___load:active{
+        background-color: #fff;
+    }

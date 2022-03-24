@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="tarefas">
+            <h1 class="titulo">Lista de tarefas diárias</h1>
+            <div class="tarefas__div">
+                <input class="input__tarefa" type="text" name="tarefa" id="input_tarefa">
+                <input class="input__data" type="datetime-local" name="data" id="data">
+                <button class="botao__criaTarefa" id="botao__criaTarefa">Criar tarefa</button>    
+            </div>
+            <ul class="lista__tarefas" id="lista"></ul>
+            </ul>
+        </div>
+
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script type="module" src="./main.js"></script>   
+</body>
+</html>

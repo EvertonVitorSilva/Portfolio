@@ -1,0 +1,61 @@
+.container{
+    text-align: center;
+    padding: 5% 20%;
+}
+.tarefas{
+    background: #a25066;
+    padding: 50px 0 50px 0;
+    border: #fff solid 3px;
+    border-radius: 30px;
+    
+}
+
+.tarefas__div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo{
+    border-bottom: #fff solid 2px;
+    font-size: 3.75rem;
+    color: #fff;
+}
+
+.input__tarefa{
+    height: 80px;
+    width: 700px;
+    font-size: 3rem;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.input__data{
+    height: 80px;
+    width: 400px;
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.botao__criaTarefa{
+    font-size: 2.5rem;
+    border-radius: 20px;
+}
+
+.botao__criaTarefa:active{
+    background: #0ff;
+}
+
+.tarefa{
+    font-size: 2.75rem;
+    color: #fff;
+    margin-top: 80px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.botao__deleta{
+    font-size: 2.5rem;
+    border-radius: 20px; 
+    margin-left: 100px;
+}
